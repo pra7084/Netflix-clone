@@ -1,10 +1,11 @@
 import './App.css';
-
+import Front from './Components/Front.js';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>what is your name</p>
+    <div classNameName="App">
+      <header classNameName="App-header">
+        <Front></Front>
+    
       </header>
     </div>
   );
