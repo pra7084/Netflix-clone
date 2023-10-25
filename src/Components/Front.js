@@ -1,8 +1,9 @@
+import logo from '../Assets/logo1.png'
 const Front=()=>{
     return <div>
         <div className="front">
       <div className="navbar_logo">
-        <img src="./Assets/logo1.png" alt="netflix logo" />
+        <img src={logo} alt="netflix logo" />
       </div>
       <div className="nav-button">
         <div>

@@ -1,13 +1,12 @@
 import './App.css';
 import Front from './Components/Front.js';
+import Second  from './Components/Second'
 function App() {
   return (
-    <div classNameName="App">
-      <header classNameName="App-header">
-        <Front></Front>
-    
-      </header>
-    </div>
+    <div>
+        <Front/>
+        <Second/>
+     </div>
   );
 }
 
