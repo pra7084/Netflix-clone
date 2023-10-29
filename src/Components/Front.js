@@ -1,4 +1,5 @@
-import logo from '../Assets/logo1.png'
+import logo from '../Assets/logo1.png';
+import './Front.css';
 const Front=()=>{
     return <div>
         <div className="front">

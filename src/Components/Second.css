@@ -1,0 +1,25 @@
+.second{
+    width:90vw;
+    height:25rem;
+    display: inline-flex;
+    padding:5%;
+    background-color: black;
+    justify-content: center;
+    color:white;
+   border-bottom:15px solid grey;
+}
+.content2{
+     height:100%;
+        width:40rem;
+    display:inline-flex;
+    flex-direction: column;
+    justify-content: center;
+        height:100%;
+     font-size: 1.5em;
+}
+.tv{
+    display:inline-flex;
+      height:100%;
+        width:40rem;
+    
+}

@@ -1,21 +1,33 @@
-import image from  '../Assets/tv.png'
-const Second = () => {
-
-  return (
-    
+import { Fragment } from "react";
+import "./Second.css";
+const Second = (props) => {
+  let Content;
+  if (props.right === true) {
+    Content = (
       <div className="second">
         <div className="content2">
-          <h1>Enjoy on your TV</h1>
-          <p>
-            Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
-            players and more.
-          </p>
+          {props.data.heading}
+          {props.data.para}
         </div>
         <div className="tv">
-          <img src={image} alt="tv containing some images" />
+          <img src={props.image} alt="tv containing some images" />
         </div>
       </div>
-    
-  );
+    );
+  } else {
+    Content = (
+      <div className="second">
+        <div className="tv">
+          <img src={props.image} alt="tv containing some images" />
+        </div>
+        <div className="content2">
+          {props.data.heading}
+          {props.data.para}
+        </div>
+      </div>
+    );
+  }
+
+  return <Fragment>{Content}</Fragment>;
 };
 export default Second;
