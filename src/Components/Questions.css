@@ -40,3 +40,14 @@
     align-items: center;
     
 }
+@media (min-width:1280px) {
+    .title{
+        width:1280px;
+    }
+    .ques{
+        width:1280px;
+    }
+    .ques-content1{
+        width:1280px;
+    }
+}

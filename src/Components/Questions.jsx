@@ -88,32 +88,38 @@ const Questions = () => {
       </div>
       <div className="ques" onClick={clickHandler1}>
         <h5>What is Netflix</h5>
-        <i className="fa-solid fa-plus"></i>
+       {!clicked1&&<i className="fa-solid fa-plus"></i>}
+       {clicked1&&<i class="fa-solid fa-xmark"></i>}
       </div>
       {clicked1 && <span className="ques-content1">{DUMMY_ANS[0].para}</span>}
       <div className="ques" onClick={clickHandler2}>
         <h5>How much does Netflix cost?</h5>
-        <i className="fa-solid fa-plus"></i>
+       {!clicked2&&<i className="fa-solid fa-plus"></i>}
+       {clicked2&&<i class="fa-solid fa-xmark"></i>}
       </div>
       {clicked2 && <span className="ques-content1">{DUMMY_ANS[1].para}</span>}
       <div className="ques" onClick={clickHandler3}>
         <h5>Where can I watch</h5>
-        <i className="fa-solid fa-plus"></i>
+        {!clicked3&&<i className="fa-solid fa-plus"></i>}
+       {clicked3&&<i class="fa-solid fa-xmark"></i>}
       </div>
       {clicked3 && <span className="ques-content1">{DUMMY_ANS[2].para}</span>}
       <div className="ques" onClick={clickHandler4}>
         <h5>How do i cancel</h5>
-        <i className="fa-solid fa-plus"></i>
+        {!clicked4&&<i className="fa-solid fa-plus"></i>}
+       {clicked4&&<i class="fa-solid fa-xmark"></i>}
       </div>
       {clicked4 && <span className="ques-content1">{DUMMY_ANS[3].para}</span>}
       <div className="ques" onClick={clickHandler5}>
         <h5>What can i watch on netflix</h5>
-        <i className="fa-solid fa-plus"></i>
+       {!clicked5&&<i className="fa-solid fa-plus"></i>}
+       {clicked5&&<i class="fa-solid fa-xmark"></i>}
       </div>
       {clicked5 && <span className="ques-content1">{DUMMY_ANS[4].para}</span>}
       <div className="ques" onClick={clickHandler6}>
         <h5>Is Netflix good for kids</h5>
-        <i className="fa-solid fa-plus"></i>
+        {!clicked6&&<i className="fa-solid fa-plus"></i>}
+       {clicked6&&<i class="fa-solid fa-xmark"></i>}
       </div>
       {clicked6 && <span className="ques-content1">{DUMMY_ANS[5].para}</span>}
       <Footer/>
