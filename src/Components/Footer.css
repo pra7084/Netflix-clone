@@ -1,0 +1,46 @@
+.foot-sign{
+  margin-top:3rem;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foot-sign:hover{
+    background-color:black;
+}
+.foot-para{
+    font-size: 22px;
+    margin-bottom: 18px;
+}
+.wrapper button{
+    font-size: 25px;
+    height:52px;
+    width:13rem;
+    margin-left:20px;
+    background-color: red;
+    border-radius: 5px;
+    border:none;
+}
+.wrapper{
+     padding:10px;
+     display:flex;
+     justify-content: center;
+}
+.foot-mail{
+    padding-left:10px;
+    width:20rem;
+    height:3rem;
+    background-color:rgb(44, 44, 75);
+    border:2px solid green;
+    justify-content: center;
+    display:flex;
+    border-radius: 8px;;
+    flex-direction: column;
+}
+.foot-mail input{
+    background-color: rgb(44,44,75);
+    border:none;
+}
+.foot-mail input[type="text"]{
+    outline-color:rgb(44,44,75);
+}
