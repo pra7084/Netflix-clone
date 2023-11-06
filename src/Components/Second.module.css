@@ -23,3 +23,13 @@
         width:40rem;
     
 }
+@media(max-width:900px){
+  .second{
+    width:86vw;
+    text-align: center;
+     padding-left:10%;
+    flex-direction: column;
+    height:auto;
+  }
+
+}

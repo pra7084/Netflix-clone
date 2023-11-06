@@ -1,25 +1,25 @@
 import logo from '../Assets/logo1.png';
-import './Front.css';
+import classes from './Front.module.css';
 const Front=()=>{
     return <div>
-        <div className="front">
-      <div className="navbar_logo">
+        <div className={classes.front}>
+      <div className={classes.navbar_logo}>
         <img src={logo} alt="netflix logo" />
       </div>
-      <div className="nav-button">
+      <div className={classes.nav_button}>
         <div>
-          <button id="lang">English</button>
+          <button id={classes.lang}>English</button>
         </div>
 
-        <button id="sign-in">Sign in</button>
+        <button id={classes.sign_in}>Sign in</button>
       </div>
-      <div className="content-front">
+      <div className={classes.content_front}>
         <h1>Enjoy big Movies, hit series and more from $149.</h1>
         <p>Join today. Cancel anytime.</p>
         <p>
           Ready to watch ? Enter you email to create or restart your membership
         </p>
-        <div className="email-form">
+        <div className={classes.email_form}>
           <form>
             <input type="email" placeholder="Email address" />
           </form>

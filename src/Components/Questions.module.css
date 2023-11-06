@@ -30,7 +30,7 @@
     align-items: center;
 }
 
-.ques-content1{
+.ques_content1{
     margin-top:10px;
     height:auto;
     font-size:1.2rem;
@@ -38,7 +38,7 @@
     padding:2%;
     line-height: 1.4em;
     align-items: center;
-    
+   
 }
 @media (min-width:1280px) {
     .title{
@@ -47,7 +47,7 @@
     .ques{
         width:1280px;
     }
-    .ques-content1{
+    .ques_content1{
         width:1280px;
     }
 }

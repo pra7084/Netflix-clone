@@ -1,4 +1,4 @@
-import "./App.css";
+
 import images from "./Assets/tv.png";
 import image2 from "./Assets/str.jpg";
 import image3 from "./Assets/tv3.png";

@@ -26,7 +26,7 @@
     height:100px;
     display:inline-flex;
 }
-.nav-button{
+.nav_button{
     display:inline-flex;
     position:absolute;
     right:0px;
@@ -44,7 +44,7 @@
     border:1px solid white;
     margin-right:10px;
 }
-#sign-in{
+#sign_in{
     width:5rem;
     background-color: red;
     border:none;
@@ -52,7 +52,7 @@
     font-size:18px;
     border-radius: 10px;
 }
-.content-front{
+.content_front{
     height:auto;
     font-size: 1.5em;
     width:80%;
@@ -61,19 +61,19 @@
     flex-direction:column;
     text-align: center;
 }
-.content-front h1{
+.content_front h1{
     padding:10px;
 }
-.content-front p{
+.content_front p{
     padding:10px;
 }
-.content-front form{
+.content_front form{
     display:inline-block;
     width:20rem;
     height:50px;
     color:white;
 }
-.content-front form input{
+.content_front form input{
     padding:5px;
     border-radius: 5px;
     border:none;
@@ -84,7 +84,7 @@
     height:80%;
     border:1px solid rgba(255,255,255,0.6);
 }
-.content-front button{
+.content_front button{
     font-size: 25px;
     height:52px;
     width:13rem;
@@ -93,7 +93,7 @@
     border-radius: 5px;
     border:none;
 }
-.email-form{
+.email_form{
      padding:10px;
      display:flex;
      justify-content: center;

@@ -1,14 +1,14 @@
-.foot-sign{
+.foot_sign{
   margin-top:3rem;
   width:100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.foot-sign:hover{
+.foot_sign:hover{
     background-color:black;
 }
-.foot-para{
+.footpara{
     font-size: 22px;
     margin-bottom: 18px;
 }
@@ -26,7 +26,7 @@
      display:flex;
      justify-content: center;
 }
-.foot-mail{
+.foot_mail{
     padding-left:10px;
     width:20rem;
     height:3rem;
@@ -37,10 +37,10 @@
     border-radius: 8px;;
     flex-direction: column;
 }
-.foot-mail input{
+.foot_mail input{
     background-color: rgb(44,44,75);
     border:none;
 }
-.foot-mail input[type="text"]{
+.foot_mail input[type="text"]{
     outline-color:rgb(44,44,75);
 }

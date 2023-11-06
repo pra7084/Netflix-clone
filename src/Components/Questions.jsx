@@ -1,7 +1,7 @@
 import { useState } from "react";
-import "./Questions.css";
 import DUMMY_ANS from "./Dummydata";
 import Footer from "./Footer";
+import classes from './Questions.module.css';
 const Questions = () => {
   const [clicked1, setClicked1] = useState(false);
   function clickHandler1() {
@@ -82,46 +82,46 @@ const Questions = () => {
     } else setClicked6(true);
   }
   return (
-    <div className="six">
-      <div className="title">
+    <div className={classes.six}>
+      <div className={classes.title}>
         <h1>Frequently Asked Questions</h1>
       </div>
-      <div className="ques" onClick={clickHandler1}>
+      <div className={classes.ques} onClick={clickHandler1}>
         <h5>What is Netflix</h5>
        {!clicked1&&<i className="fa-solid fa-plus"></i>}
        {clicked1&&<i class="fa-solid fa-xmark"></i>}
       </div>
-      {clicked1 && <span className="ques-content1">{DUMMY_ANS[0].para}</span>}
-      <div className="ques" onClick={clickHandler2}>
+      {clicked1 && <span className={classes.ques_content1}>{DUMMY_ANS[0].para}</span>}
+      <div className={classes.ques} onClick={clickHandler2}>
         <h5>How much does Netflix cost?</h5>
        {!clicked2&&<i className="fa-solid fa-plus"></i>}
        {clicked2&&<i class="fa-solid fa-xmark"></i>}
       </div>
-      {clicked2 && <span className="ques-content1">{DUMMY_ANS[1].para}</span>}
-      <div className="ques" onClick={clickHandler3}>
+      {clicked2 && <span className={classes.ques_content1}>{DUMMY_ANS[1].para}</span>}
+      <div className={classes.ques} onClick={clickHandler3}>
         <h5>Where can I watch</h5>
         {!clicked3&&<i className="fa-solid fa-plus"></i>}
        {clicked3&&<i class="fa-solid fa-xmark"></i>}
       </div>
-      {clicked3 && <span className="ques-content1">{DUMMY_ANS[2].para}</span>}
-      <div className="ques" onClick={clickHandler4}>
+      {clicked3 && <span className={classes.ques_content1}>{DUMMY_ANS[2].para}</span>}
+      <div className={classes.ques} onClick={clickHandler4}>
         <h5>How do i cancel</h5>
         {!clicked4&&<i className="fa-solid fa-plus"></i>}
        {clicked4&&<i class="fa-solid fa-xmark"></i>}
       </div>
-      {clicked4 && <span className="ques-content1">{DUMMY_ANS[3].para}</span>}
-      <div className="ques" onClick={clickHandler5}>
+      {clicked4 && <span className={classes.ques_content1}>{DUMMY_ANS[3].para}</span>}
+      <div className={classes.ques} onClick={clickHandler5}>
         <h5>What can i watch on netflix</h5>
        {!clicked5&&<i className="fa-solid fa-plus"></i>}
        {clicked5&&<i class="fa-solid fa-xmark"></i>}
       </div>
-      {clicked5 && <span className="ques-content1">{DUMMY_ANS[4].para}</span>}
-      <div className="ques" onClick={clickHandler6}>
+      {clicked5 && <span className={classes.ques_content1}>{DUMMY_ANS[4].para}</span>}
+      <div className={classes.ques} onClick={clickHandler6}>
         <h5>Is Netflix good for kids</h5>
         {!clicked6&&<i className="fa-solid fa-plus"></i>}
        {clicked6&&<i class="fa-solid fa-xmark"></i>}
       </div>
-      {clicked6 && <span className="ques-content1">{DUMMY_ANS[5].para}</span>}
+      {clicked6 && <span className={classes.ques_content1}>{DUMMY_ANS[5].para}</span>}
       <Footer/>
     </div>
   );

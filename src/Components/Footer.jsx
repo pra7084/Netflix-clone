@@ -1,18 +1,18 @@
 import { Fragment } from "react"
-import './Footer.css'
+import styles from './Footer.module.css';
 const Footer =()=>{
     return (
         <Fragment>
-  <div className="foot-sign">
-        <div className="foot-para">
+  <div className={styles.foot_sign}>
+        <div className={styles.footpara}>
           Ready to watch? Enter your email to create or restart your membership.
         </div>
-        <div className="wrapper">
-          <div className="foot-mail">
+        <div className={styles.wrapper}>
+          <div className={styles.foot_mail}>
             <label style={{ fontSize: "15px" }}>Email address</label>
             <input type="email" id="gmail" />
           </div>
-          <div className="get-star">
+          <div>
             <button>Get Started</button>
           </div>
         </div>
