@@ -10,7 +10,7 @@ const Footer =()=>{
         <div className={styles.wrapper}>
           <div className={styles.foot_mail}>
             <label style={{ fontSize: "15px" }}>Email address</label>
-            <input type="email" id="gmail" />
+            <input type="email" className={styles.gmail} />
           </div>
           <div>
             <button>Get Started</button>
@@ -19,5 +19,5 @@ const Footer =()=>{
       </div>
       </Fragment>
     );
-}
+    }
 export default Footer;

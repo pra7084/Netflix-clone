@@ -3,6 +3,7 @@ import classes from './Front.module.css';
 const Front=()=>{
     return <div>
         <div className={classes.front}>
+          <div className={classes.front1}>
       <div className={classes.navbar_logo}>
         <img src={logo} alt="netflix logo" />
       </div>
@@ -17,7 +18,7 @@ const Front=()=>{
         <h1>Enjoy big Movies, hit series and more from $149.</h1>
         <p>Join today. Cancel anytime.</p>
         <p>
-          Ready to watch ? Enter you email to create or restart your membership
+          Ready to watch ? Enter your email to create or restart your membership
         </p>
         <div className={classes.email_form}>
           <form>
@@ -26,6 +27,7 @@ const Front=()=>{
           <button>Get Started</button>
         </div>
       </div>
+    </div>
     </div>
     </div>
 }
